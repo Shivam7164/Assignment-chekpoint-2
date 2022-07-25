@@ -1,0 +1,694 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ########### coman class ############ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.center {
+    text-align: center;
+}
+
+.heading {
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.788);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.827);
+    margin-bottom: 10px;
+}
+
+.pharagraph {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+/* ############### header ################# */
+
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./banner.jpg);
+    /* height: 80vh; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -170px;
+    margin-bottom: 11rem;
+}
+
+.child3 ul li {
+    display: inline-block;
+}
+
+.hover:hover {
+    padding-top: 23px;
+    border-top: 2px solid rgb(234, 81, 62);
+    color: rgb(234, 81, 62);
+
+}
+
+
+header {
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: -3px;
+
+}
+
+.father1 {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 43.2rem;
+    margin-bottom: 20px;
+
+
+}
+
+.father1 i {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+header .child2 img {
+    width: 70px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+header .child2 a {
+    text-decoration: none;
+    color: rgb(234, 81, 62);
+
+}
+
+header .child2 a span {
+    font-weight: 700;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+header .child3 a {
+    text-decoration: none;
+    margin-right: 37px;
+    color: rgb(92, 92, 92);
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+
+.child4 {
+    padding-top: 22rem;
+    /* margin-bottom: 9rem; */
+    text-align: center;
+    padding-bottom: 10rem;
+
+}
+
+.child4 h2 {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+    word-spacing: 5px;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.child4 p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.child4 a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(234, 81, 62);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.father2 .child8 {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(126, 126, 126);
+    margin-left: 6px;
+    border-radius: 50%;
+}
+
+.father2 {
+    margin-left: 46rem;
+    margin-top: -11rem;
+    margin-bottom: 6rem;
+
+}
+
+/* ############# main ################ */
+main {
+    margin-top: 5rem;
+}
+.child11 {
+
+    margin-top: 40px;
+    height: 270px;
+    line-height: 270px;
+    text-align: center;
+    flex: 0 1 22%;
+    font-size: 35px;
+}
+
+.child12 {
+    background-color: rgb(92, 189, 157);
+}
+
+.child13 {
+
+    background-color: rgb(230, 127, 49);
+
+}
+
+.child14 {
+    background-color: rgb(57, 152, 219);
+
+}
+
+.child15 {
+
+    background-color: rgb(104, 205, 115);
+}
+
+.child10 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ############# section  child16 ########## */
+
+.child17 figure {
+    /* width: 300px; */
+    flex: 0 1 22%;
+}
+
+.child17 figure img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.child17 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child16 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+/* ############ section2 ############ */
+
+.child18 figure {
+    flex: 0 1 22%;
+}
+
+.child18 figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.child18 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* ############# section3 ########## */
+
+.margin {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.child19 div p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.progress-bar{
+    font-size: 12px;
+    font-weight: 700;
+    /* padding-left: 1rem; */
+    width: 350px;
+    height: 2.5em;
+    background-color:  rgb(231,231,231);
+    line-height: 2.5em;
+    color: white;
+    position: relative;
+    margin-bottom: 0.7em;
+    
+}
+.progress-bar::before{
+  content: "PHOTOSHOP 90%";
+  width: 90%;
+  height: 100%;
+  background-color: rgb(234,81,62);
+  position: absolute;
+  align-items: center;
+  padding-left: 1em;
+
+}
+.progress-bar2::before{
+    content: "HTML CSS 80%";
+    width: 80%;
+}
+.progress-bar3::before{
+    content: "DEVELOPMENT 70%";
+    width: 70%;
+}
+.progress-bar4::before{
+    content: "MARKETING 80%";
+    width: 80%;
+}
+
+.child21 p {
+    width: 95%;
+}
+
+.child19 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.child21 span {
+    color: orangered;
+    font-weight: 700;
+}
+
+/* ############ section4 ############### */
+
+.child22 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+/* ########## section5 ############# */
+
+.section5 {
+    margin-top: 2rem;
+}
+
+.section5 article p {
+    font-size: 13px;
+}
+
+.child23 {
+
+    flex: 0 1 55%;
+}
+
+.child24 input {
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 4px;
+
+}
+
+.child24 textarea {
+    width: 400px;
+    padding: 4px;
+    height: 100px;
+    margin-bottom: 7px;
+}
+
+.child24 button {
+    width: 410px;
+    padding: 7px;
+    background-color: rgb(234, 81, 62);
+    color: white;
+    border: none;
+}
+
+.child23 p {
+    line-height: 20px;
+    word-spacing: 3px;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: rgb(94, 169, 48);
+}
+
+.three {
+    color: rgb(232, 73, 52);
+}
+
+.four {
+    color: rgb(232, 73, 52);
+}
+
+strong {
+    font-weight: 700;
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ########### footer ######### */
+
+.child25 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.child25 p {
+    font-size: 13px;
+}
+
+.child25 nav a {
+    text-decoration: none;
+    background-color: rgb(234, 81, 62);
+    padding: 10px 13px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* ############# GALLERY ################ */
+
+
+.child28 a img {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+.child28 a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.child29 a {
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.child27 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.aside-footer {
+    padding-left: 1.5rem;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.aside-footer h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.aside-footer p {
+    margin-bottom: 20px;
+
+}
+
+.aside-footer nav a {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+.aside-footer nav a i{
+    font-weight: 200;
+}
+
+
+
+.gallery1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.child30 {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.child32 {
+    width: 48%;
+
+}
+
+.child32 figure img {
+    width: 100%;
+}
+
+
+.gallry-div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.aside-25 {
+    background-color: rgb(234, 81, 62);
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-70 {
+    text-align: center;
+    margin-left: 28%;
+    width: 75%;
+}
+
+.div-70{
+    justify-content: space-between;
+width: 100%;
+display: flex;
+}
+.div-70 figure img{
+    margin-bottom: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.aside-heading{
+position: absolute;
+margin-bottom: 2rem;
+}
+
+.article-70 h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+
+
+
